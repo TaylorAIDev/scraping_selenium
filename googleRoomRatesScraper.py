@@ -35,6 +35,7 @@ fark = fark[0]
 options = webdriver.ChromeOptions()
 options.add_argument("start-maximized")
 options.add_argument('--disable-blink-features=AutomationControlled')
+options.add_argument('--headless')
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
 driver = webdriver.Chrome(options=options)
@@ -115,7 +116,7 @@ while True:
             try:
                name = list_element.find_element(By.CSS_SELECTOR, "span[class=\"NiGhzc\"]").text
                hotelNameList.append(name)
-               price = list_element.find_element(By.CSS_SELECTOR, "span[class=\"MW1oTb\"]").text
+               price = list_element.find_element(By.CSS_SELECTOR, "span[class=\"iqYCVb\"]").text
                priceList.append(price)
                checkIn.append(checkInDate)
                chackOut.append(checkOutDate)

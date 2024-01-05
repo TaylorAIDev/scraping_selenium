@@ -26,7 +26,7 @@ print(len(list_elements))
 for list_element in list_elements:
     try:
         name = list_element.find_element(By.CSS_SELECTOR, "span[class=\"NiGhzc\"]").text
-        price = list_element.find_element(By.CSS_SELECTOR, "span[class=\"MW1oTb\"]").text
+        price = list_element.find_element(By.CSS_SELECTOR, "span[class=\"iqYCVb\"]").text
         print(name,price)
     except:
         pass
