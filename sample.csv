@@ -1,21 +1,50 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Hotel Name,checkInDate,checkOutDate,Price
+"Four Seasons Resort The Nam Hai, Hoi An
+Official site","Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Vio.com,"Wed, 10 Jan","Thu, 11 Jan",US$951
+Expedia.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Agoda,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Priceline,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Hotels.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Traveloka.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,056"
+Traveluro,"Wed, 10 Jan","Thu, 11 Jan","US$1,011"
+Trip.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+GoSplitty,"Wed, 10 Jan","Thu, 11 Jan","US$1,036"
+Clicktrip.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,174"
+Orbitz.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Reservation Lodge,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Travelocity.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Qantas Hotels,"Wed, 10 Jan","Thu, 11 Jan","US$1,197"
+goseek.com,"Wed, 10 Jan","Thu, 11 Jan",US$951
+Reserving.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,198"
+CheapTickets.com,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Tripbtoz,"Wed, 10 Jan","Thu, 11 Jan","US$1,093"
+Good Hotel Club,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+Next Day Hotels,"Wed, 10 Jan","Thu, 11 Jan","US$1,054"
+eDreams,"Wed, 10 Jan","Thu, 11 Jan","US$1,055"
+"Four Seasons Resort The Nam Hai, Hoi An
+Official site","Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Vio.com,"Thu, 11 Jan","Fri, 12 Jan",US$960
+Expedia.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Agoda,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Priceline,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Hotels.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+KAYAK.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Traveloka.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,066"
+Trip.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Reserving.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,209"
+Clicktrip.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,185"
+Orbitz.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Travelocity.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Qantas Hotels,"Thu, 11 Jan","Fri, 12 Jan","US$1,208"
+Hotelscombined.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Closest Hotel,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Reservation Lodge,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+goseek.com,"Thu, 11 Jan","Fri, 12 Jan",US$960
+Traveluro,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+CheapTickets.com,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+eDreams,"Thu, 11 Jan","Fri, 12 Jan","US$1,065"
+Next Day Hotels,"Thu, 11 Jan","Fri, 12 Jan","US$1,219"
+Good Hotel Club,"Thu, 11 Jan","Fri, 12 Jan","US$1,220"
+GoSplitty,"Thu, 11 Jan","Fri, 12 Jan","US$1,091"
+Tripbtoz,"Thu, 11 Jan","Fri, 12 Jan","US$1,103"

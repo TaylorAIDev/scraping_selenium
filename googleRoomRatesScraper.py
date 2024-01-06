@@ -14,7 +14,10 @@ from datetime import datetime
 import calendar
 from datetime import datetime, timedelta
 from selenium.common.exceptions import StaleElementReferenceException
-from selenium.common.exceptions import StaleElementReferenceException , ElementNotInteractableException           
+from selenium.common.exceptions import StaleElementReferenceException , ElementNotInteractableException
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
+  
 
 startDate = input('Start date : ')
 date_obj1 = datetime.strptime(startDate, '%d/%m/%Y')
@@ -38,7 +41,8 @@ options.add_argument('--disable-blink-features=AutomationControlled')
 options.add_argument('--headless')
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
 options.add_experimental_option('useAutomationExtension', False)
-driver = webdriver.Chrome(options=options)
+# driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                                                                      'AppleWebKit/537.36 (KHTML, like Gecko) '
