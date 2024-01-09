@@ -36,17 +36,20 @@ fark = " ".split(str(fark))
 fark = fark[0]
 
 options = webdriver.ChromeOptions()
-options.add_argument("start-maximized")
-options.add_argument('--disable-blink-features=AutomationControlled')
-# options.add_argument('--headless')
-options.add_experimental_option("excludeSwitches", ["enable-automation"])
-options.add_experimental_option('useAutomationExtension', False)
+options.add_argument("--no-sandbox")
+# options.add_argument("start-maximized")
+# options.add_argument('--disable-blink-features=AutomationControlled')
+options.add_argument('--headless')
+options.add_argument("--disable-gpu")
+# options.add_experimental_option("excludeSwitches", ["enable-automation"])
+# options.add_experimental_option('useAutomationExtension', False)
 driver = webdriver.Chrome(options=options)
 # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
-driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
-                                                                     'AppleWebKit/537.36 (KHTML, like Gecko) '
-                                                                     'Chrome/85.0.4183.102 Safari/537.36'})
+# driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+# driver.execute_cdp_cmd('Network.setUserAgentOverride', {"userAgent": 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
+#                                                                      'AppleWebKit/537.36 (KHTML, like Gecko) '
+#                                                                      'Chrome/85.0.4183.102 Safari/537.36'})
+
 while True:
    try:
       driver.get("https://www.google.com/travel/hotels/four%20seasons%20nam%20hai%20vietnam/entity/CgsIlriB_sLHk536ARAB/prices?q=four%20seasons%20nam%20hai%20vietnam&g2lb=2502548%2C2503771%2C2503781%2C4258168%2C4270442%2C4284970%2C4291517%2C4306835%2C4597339%2C4757164%2C4814050%2C4850738%2C4864715%2C4874190%2C4886480%2C4893075%2C4920132%2C4924070%2C4936396%2C4955321%2C4965990%2C4968087%2C4972345%2C4977499%2C4989344%2C4990493%2C4992509%2C4995865%2C4995867&hl=en-SG&gl=sg&cs=1&ssta=1&rp=OAJAAEgBwAECmgICCAA&ictx=1&ved=0CAAQ5JsGahcKEwjo6ebv-aL-AhUAAAAAHQAAAAAQBA&ts=CAESCgoCCAMKAggDEAEaSQorEicyJTB4MzE0MjExZTQ4NzAwYmU4ZDoweGZhM2E0ZTNjMmZjMDVjMTYaABIaEhQKBwjnDxAEGAwSBwjnDxAEGA0YATICCAEqCQoFOgNTR0QaAA&ap=MAE")
